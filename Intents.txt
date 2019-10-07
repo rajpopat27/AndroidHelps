@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             intent.setData(Uri.parse("market://details?id=com.flazm.bobtherobber4&hl=en"));
             chooser=Intent.createChooser(intent,"Launch apps");
             startActivity(chooser);
-        }
+        }###
         if (view.getId()==R.id.button3){
             String[] to ={"rajpopat27@gmail.com","satyambajajd@gmail.com"};
             intent=new Intent(Intent.ACTION_SEND);
